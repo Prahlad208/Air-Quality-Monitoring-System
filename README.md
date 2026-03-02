@@ -107,7 +107,7 @@ Lower value → Cleaner air
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 - Analog sensor interfacing
 - LCD communication using I2C
