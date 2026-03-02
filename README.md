@@ -1,6 +1,6 @@
 # Air Quality Monitoring System
 
-## 📌 Project Overview
+## Project Overview
 
 The Air Quality Monitoring System is an Arduino-based project designed to measure and display air pollution levels using a gas sensor.
 
@@ -8,7 +8,7 @@ The system continuously monitors air quality and alerts the user when pollution 
 
 ---
 
-## 🛠 Components Used
+## Components Used
 
 - Arduino Uno
 - MQ Gas Sensor (Air Quality Sensor)
@@ -21,7 +21,7 @@ The system continuously monitors air quality and alerts the user when pollution 
 
 ---
 
-## ⚙ System Working
+## System Working
 
 1. The MQ gas sensor detects the concentration of gases in the air.
 2. The sensor outputs an analog voltage based on gas concentration.
@@ -37,7 +37,7 @@ The system continuously monitors air quality and alerts the user when pollution 
 
 ---
 
-## 📊 Threshold Logic
+## Threshold Logic
 
 The system uses a predefined threshold value to determine air quality status.
 
@@ -52,7 +52,7 @@ This threshold can be adjusted based on calibration requirements.
 
 ---
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 | Component   | Arduino Pin |
 |-------------|------------|
@@ -65,7 +65,7 @@ This threshold can be adjusted based on calibration requirements.
 
 ---
 
-## 💻 Output
+## Output
 
 ### LCD Display:
 
@@ -78,7 +78,7 @@ Air Quality: <value>
 
 ---
 
-## 📐 Working Principle
+## Working Principle
 
 The MQ gas sensor changes its internal resistance when exposed to different gas concentrations.
 
@@ -89,7 +89,7 @@ Lower value → Cleaner air
 
 ---
 
-## 🚀 Applications
+## Applications
 
 - Indoor air quality monitoring
 - Industrial safety systems
@@ -98,7 +98,7 @@ Lower value → Cleaner air
 
 ---
 
-## 🔍 Possible Improvements
+## Possible Improvements
 
 - Add real-time graph plotting using Python
 - Calibrate sensor for accurate PPM measurement
